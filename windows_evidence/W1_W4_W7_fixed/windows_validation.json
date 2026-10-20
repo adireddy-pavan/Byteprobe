@@ -1,0 +1,39 @@
+{
+  "run_started_utc": "2026-10-16T08:06:09.640645+00:00",
+  "platform": "Windows-11-10.0.26300-SP0",
+  "python": "3.13.7 (tags/v3.13.7:bcee1c3, Aug 14 2025, 14:15:11) [MSC v.1944 64 bit (AMD64)]",
+  "pywin32_available": true,
+  "reportlab_available": true,
+  "checks": {
+    "W1": {
+      "status": "PASS",
+      "detail": "Real GUI smoke test transcript saved; est_gui_smoke.GuiSmokeTest.test_nine_tabs_present_and_named) ... ok\ntest_reset_clears_results (tests.test_gui_smoke.GuiSmokeTest.test_reset_clears_results) ... ok\ntest_window_constructs (tests.test_gui_smoke.GuiSmokeTest.test_window_constructs) ... ok\n\n----------------------------------------------------------------------\nRan 5 tests in 1.832s\n\nOK\n"
+    },
+    "W2": {
+      "status": "PASS",
+      "detail": "Owner (may contain test-user identity, stored locally): PAVAN-7744\\Pavan"
+    },
+    "W3": {
+      "status": "PASS",
+      "detail": "Flags: hidden=True system=True; attr=0x26"
+    },
+    "W4": {
+      "status": "PASS",
+      "detail": "Observed ADS stream names: [':byteprobe_test:$DATA']"
+    },
+    "W7": {
+      "status": "PASS",
+      "detail": "Files: ['W7_metadata.csv', 'W7_report.html', 'W7_report.pdf'], size>0=True"
+    },
+    "W5": {
+      "status": "NOT_TESTED",
+      "detail": "Administrator live-volume analysis and separately extracted $MFT comparison must be performed and documented manually."
+    },
+    "W6": {
+      "status": "NOT_TESTED",
+      "detail": "Real Windows timestomping profile must be run on dedicated disposable test volume, with before/after MFT evidence."
+    }
+  },
+  "methodology": "Automated disposable-file checks only; W5/W6 manual",
+  "run_ended_utc": "2026-10-16T08:06:11.856478+00:00"
+}

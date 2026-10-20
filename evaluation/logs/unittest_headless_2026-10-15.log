@@ -1,0 +1,171 @@
+test_hidden_random_section_is_found_in_low_entropy_file (tests.test_entropy.BlockEntropyTests.test_hidden_random_section_is_found_in_low_entropy_file) ... /mnt/data/neehanth_fixed_work/ByteProbe/tests/test_entropy.py:133: ResourceWarning: unclosed file <_io.BufferedWriter name='/tmp/tmpohi4rx5d/f.bin'>
+  open(p, 'wb').write(data)
+ResourceWarning: Enable tracemalloc to get the object allocation traceback
+ok
+test_plain_text_has_no_region (tests.test_entropy.BlockEntropyTests.test_plain_text_has_no_region) ... /mnt/data/neehanth_fixed_work/ByteProbe/tests/test_entropy.py:133: ResourceWarning: unclosed file <_io.BufferedWriter name='/tmp/tmpknvn5_mg/f.bin'>
+  open(p, 'wb').write(data)
+ResourceWarning: Enable tracemalloc to get the object allocation traceback
+ok
+test_compressed_prose_flagged (tests.test_entropy.TestClassification.test_compressed_prose_flagged) ... ok
+test_english_text_not_flagged (tests.test_entropy.TestClassification.test_english_text_not_flagged) ... ok
+test_known_false_negative_highly_redundant_input (tests.test_entropy.TestClassification.test_known_false_negative_highly_redundant_input) ... ok
+test_random_data_flagged (tests.test_entropy.TestClassification.test_random_data_flagged) ... ok
+test_small_files_cannot_reach_threshold (tests.test_entropy.TestClassification.test_small_files_cannot_reach_threshold) ... ok
+test_threshold_is_strictly_greater_than_7_2 (tests.test_entropy.TestClassification.test_threshold_is_strictly_greater_than_7_2) ... ok
+test_analyze_all_progress (tests.test_entropy.TestEdgeCases.test_analyze_all_progress) ... ok
+test_empty_file (tests.test_entropy.TestEdgeCases.test_empty_file) ... ok
+test_unreadable_file (tests.test_entropy.TestEdgeCases.test_unreadable_file) ... ok
+test_all_256_values_is_maximum (tests.test_entropy.TestExactValues.test_all_256_values_is_maximum) ... ok
+test_counts_span_read_chunks (tests.test_entropy.TestExactValues.test_counts_span_read_chunks) ... ok
+test_order_does_not_matter (tests.test_entropy.TestExactValues.test_order_does_not_matter) ... ok
+test_single_symbol_is_zero (tests.test_entropy.TestExactValues.test_single_symbol_is_zero) ... ok
+test_sixteen_symbols_is_four_bits (tests.test_entropy.TestExactValues.test_sixteen_symbols_is_four_bits) ... ok
+test_skewed_distribution (tests.test_entropy.TestExactValues.test_skewed_distribution) ... ok
+test_two_equiprobable_symbols_is_one_bit (tests.test_entropy.TestExactValues.test_two_equiprobable_symbols_is_one_bit) ... ok
+test_background_scan_completes_and_populates (tests.test_gui_smoke.GuiSmokeTest.test_background_scan_completes_and_populates) ... skipped 'Tkinter or display unavailable'
+test_every_tab_selectable (tests.test_gui_smoke.GuiSmokeTest.test_every_tab_selectable) ... skipped 'Tkinter or display unavailable'
+test_nine_tabs_present_and_named (tests.test_gui_smoke.GuiSmokeTest.test_nine_tabs_present_and_named) ... skipped 'Tkinter or display unavailable'
+test_reset_clears_results (tests.test_gui_smoke.GuiSmokeTest.test_reset_clears_results) ... skipped 'Tkinter or display unavailable'
+test_window_constructs (tests.test_gui_smoke.GuiSmokeTest.test_window_constructs) ... skipped 'Tkinter or display unavailable'
+test_duplicates_keyed_by_sha256 (tests.test_hasher.HashDatabaseTests.test_duplicates_keyed_by_sha256) ... /mnt/data/neehanth_fixed_work/ByteProbe/tests/test_hasher.py:154: ResourceWarning: unclosed file <_io.BufferedWriter name='/tmp/tmpuulny2f8/a.bin'>
+  open(self.f1, 'wb').write(b'known file')
+ResourceWarning: Enable tracemalloc to get the object allocation traceback
+/mnt/data/neehanth_fixed_work/ByteProbe/tests/test_hasher.py:155: ResourceWarning: unclosed file <_io.BufferedWriter name='/tmp/tmpuulny2f8/b.bin'>
+  open(self.f2, 'wb').write(b'other file')
+ResourceWarning: Enable tracemalloc to get the object allocation traceback
+/mnt/data/neehanth_fixed_work/ByteProbe/tests/test_hasher.py:196: ResourceWarning: unclosed file <_io.BufferedWriter name='/tmp/tmpuulny2f8/c.bin'>
+  open(c, 'wb').write(b'known file')
+ResourceWarning: Enable tracemalloc to get the object allocation traceback
+ok
+test_nsrl_csv_matches_on_sha1 (tests.test_hasher.HashDatabaseTests.test_nsrl_csv_matches_on_sha1) ... /mnt/data/neehanth_fixed_work/ByteProbe/tests/test_hasher.py:154: ResourceWarning: unclosed file <_io.BufferedWriter name='/tmp/tmpy3xihf07/a.bin'>
+  open(self.f1, 'wb').write(b'known file')
+ResourceWarning: Enable tracemalloc to get the object allocation traceback
+/mnt/data/neehanth_fixed_work/ByteProbe/tests/test_hasher.py:155: ResourceWarning: unclosed file <_io.BufferedWriter name='/tmp/tmpy3xihf07/b.bin'>
+  open(self.f2, 'wb').write(b'other file')
+ResourceWarning: Enable tracemalloc to get the object allocation traceback
+/mnt/data/neehanth_fixed_work/ByteProbe/tests/test_hasher.py:161: ResourceWarning: unclosed file <_io.TextIOWrapper name='/tmp/tmpy3xihf07/NSRLFile.txt' mode='w' encoding='utf-8'>
+  open(p, 'w').write(text)
+ResourceWarning: Enable tracemalloc to get the object allocation traceback
+ok
+test_plain_list_defaults_to_known_bad (tests.test_hasher.HashDatabaseTests.test_plain_list_defaults_to_known_bad) ... /mnt/data/neehanth_fixed_work/ByteProbe/tests/test_hasher.py:154: ResourceWarning: unclosed file <_io.BufferedWriter name='/tmp/tmpw96glky3/a.bin'>
+  open(self.f1, 'wb').write(b'known file')
+ResourceWarning: Enable tracemalloc to get the object allocation traceback
+/mnt/data/neehanth_fixed_work/ByteProbe/tests/test_hasher.py:155: ResourceWarning: unclosed file <_io.BufferedWriter name='/tmp/tmpw96glky3/b.bin'>
+  open(self.f2, 'wb').write(b'other file')
+ResourceWarning: Enable tracemalloc to get the object allocation traceback
+/mnt/data/neehanth_fixed_work/ByteProbe/tests/test_hasher.py:161: ResourceWarning: unclosed file <_io.TextIOWrapper name='/tmp/tmpw96glky3/badlist.txt' mode='w' encoding='utf-8'>
+  open(p, 'w').write(text)
+ResourceWarning: Enable tracemalloc to get the object allocation traceback
+ok
+test_sqlite_rds_is_queried_not_loaded (tests.test_hasher.HashDatabaseTests.test_sqlite_rds_is_queried_not_loaded) ... /mnt/data/neehanth_fixed_work/ByteProbe/tests/test_hasher.py:154: ResourceWarning: unclosed file <_io.BufferedWriter name='/tmp/tmp2zuufjb2/a.bin'>
+  open(self.f1, 'wb').write(b'known file')
+ResourceWarning: Enable tracemalloc to get the object allocation traceback
+/mnt/data/neehanth_fixed_work/ByteProbe/tests/test_hasher.py:155: ResourceWarning: unclosed file <_io.BufferedWriter name='/tmp/tmp2zuufjb2/b.bin'>
+  open(self.f2, 'wb').write(b'other file')
+ResourceWarning: Enable tracemalloc to get the object allocation traceback
+ok
+test_chunk_boundaries (tests.test_hasher.TestChunking.test_chunk_boundaries) ... ok
+test_hashing_does_not_modify_file (tests.test_hasher.TestChunking.test_hashing_does_not_modify_file) ... ok
+test_progress_reports_bytes_read (tests.test_hasher.TestChunking.test_progress_reports_bytes_read) ... ok
+test_duplicates_found (tests.test_hasher.TestHashSets.test_duplicates_found) ... ok
+test_hashset_match_md5_or_sha256_case_insensitive (tests.test_hasher.TestHashSets.test_hashset_match_md5_or_sha256_case_insensitive) ... ok
+test_unreadable_file_is_logged (tests.test_hasher.TestHashSets.test_unreadable_file_is_logged) ... ok
+test_unreadable_file_skipped (tests.test_hasher.TestHashSets.test_unreadable_file_skipped) ... Skipped unreadable file /tmp/tmp0n0m4en0/missing: [Errno 2] No such file or directory: '/tmp/tmp0n0m4en0/missing'
+ok
+test_million_a (tests.test_hasher.TestKnownVectors.test_million_a) ... ok
+test_published_vectors (tests.test_hasher.TestKnownVectors.test_published_vectors) ... ok
+test_avalanche_one_bit_change (tests.test_hasher.TestProperties.test_avalanche_one_bit_change) ... ok
+test_deterministic (tests.test_hasher.TestProperties.test_deterministic) ... ok
+test_digest_lengths (tests.test_hasher.TestProperties.test_digest_lengths) ... ok
+test_ads_from_mft_format_matches_windows_api (tests.test_hidden_data.TestMftAdsFallback.test_ads_from_mft_format_matches_windows_api) ... ok
+test_analyze_all_uses_lookup (tests.test_hidden_data.TestMftAdsFallback.test_analyze_all_uses_lookup) ... ok
+test_fallback_used_when_api_unavailable (tests.test_hidden_data.TestMftAdsFallback.test_fallback_used_when_api_unavailable) ... ok
+test_windows_api_result_preferred (tests.test_hidden_data.TestMftAdsFallback.test_windows_api_result_preferred) ... ok
+test_all_seven_weights (tests.test_hidden_data.TestRiskScore.test_all_seven_weights) ... ok
+test_clean_file_scores_zero (tests.test_hidden_data.TestRiskScore.test_clean_file_scores_zero) ... ok
+test_combined_and_capped (tests.test_hidden_data.TestRiskScore.test_combined_and_capped) ... ok
+test_si_fn_anomaly_weight (tests.test_hidden_data.TestRiskScore.test_si_fn_anomaly_weight) ... ok
+test_si_fn_is_highest_single_weight (tests.test_hidden_data.TestRiskScore.test_si_fn_is_highest_single_weight) ... ok
+test_unix_temp_dirs_scored_like_flags (tests.test_hidden_data.TestRiskScore.test_unix_temp_dirs_scored_like_flags) ... ok
+test_subsecond_ticks_kept (tests.test_mft.TestFiletime.test_subsecond_ticks_kept) ... ok
+test_unix_epoch (tests.test_mft.TestFiletime.test_unix_epoch) ... ok
+test_zero_is_none (tests.test_mft.TestFiletime.test_zero_is_none) ... ok
+test_4096_byte_records (tests.test_mft.TestFixup.test_4096_byte_records) ... ok
+test_protected_bytes_restored (tests.test_mft.TestFixup.test_protected_bytes_restored) ... ok
+test_torn_sector_detected (tests.test_mft.TestFixup.test_torn_sector_detected) ... ok
+test_index_lookup_requires_matching_size (tests.test_mft.TestHelpers.test_index_lookup_requires_matching_size) ... ok
+test_index_lookup_through_symlinked_scan_root (tests.test_mft.TestHelpers.test_index_lookup_through_symlinked_scan_root) ... ok
+test_normalise_live_volume (tests.test_mft.TestHelpers.test_normalise_live_volume) ... ok
+test_flags_and_header (tests.test_mft.TestParseRecord.test_flags_and_header) ... ok
+test_non_file_slots_ignored (tests.test_mft.TestParseRecord.test_non_file_slots_ignored) ... ok
+test_non_resident_ads_size (tests.test_mft.TestParseRecord.test_non_resident_ads_size) ... ok
+test_record_number_read_from_header (tests.test_mft.TestParseRecord.test_record_number_read_from_header) ... ok
+test_resident_ads (tests.test_mft.TestParseRecord.test_resident_ads) ... ok
+test_si_and_fn_timestamps_are_separate (tests.test_mft.TestParseRecord.test_si_and_fn_timestamps_are_separate) ... ok
+test_win32_name_preferred_over_dos (tests.test_mft.TestParseRecord.test_win32_name_preferred_over_dos) ... ok
+test_nested_paths_and_orphans (tests.test_mft.TestPaths.test_nested_paths_and_orphans) ... ok
+test_parent_cycle_does_not_hang (tests.test_mft.TestPaths.test_parent_cycle_does_not_hang) ... ok
+test_reused_parent_slot_is_orphaned (tests.test_mft.TestPaths.test_reused_parent_slot_is_orphaned) ... ok
+test_single_file (tests.test_mft.TestRealRecords.test_single_file) ... ok
+test_torn_real_record (tests.test_mft.TestRealRecords.test_torn_real_record) ... ok
+test_usnjrnl_extension_record (tests.test_mft.TestRealRecords.test_usnjrnl_extension_record) ... ok
+test_builder_roundtrip (tests.test_mft.TestRunlist.test_builder_roundtrip) ... ok
+test_negative_relative_offset (tests.test_mft.TestRunlist.test_negative_relative_offset) ... ok
+test_single_run (tests.test_mft.TestRunlist.test_single_run) ... ok
+test_sparse_run (tests.test_mft.TestRunlist.test_sparse_run) ... ok
+test_truncated_runlist_raises (tests.test_mft.TestRunlist.test_truncated_runlist_raises) ... ok
+test_exclude_deleted (tests.test_mft.TestSources.test_exclude_deleted) ... ok
+test_explicit_offset (tests.test_mft.TestSources.test_explicit_offset) ... ok
+test_extracted_mft_file (tests.test_mft.TestSources.test_extracted_mft_file) ... ok
+test_fragmented_volume_with_backwards_run (tests.test_mft.TestSources.test_fragmented_volume_with_backwards_run) ... ok
+test_gpt_disk_image_autodetected (tests.test_mft.TestSources.test_gpt_disk_image_autodetected) ... ok
+test_mbr_disk_image_autodetected (tests.test_mft.TestSources.test_mbr_disk_image_autodetected) ... ok
+test_missing_source_raises (tests.test_mft.TestSources.test_missing_source_raises) ... ok
+test_not_ntfs_raises (tests.test_mft.TestSources.test_not_ntfs_raises) ... ok
+test_source_opened_read_only (tests.test_mft.TestSources.test_source_opened_read_only) ... ok
+test_sparse_run_keeps_numbering (tests.test_mft.TestSources.test_sparse_run_keeps_numbering) ... ok
+test_bm_in_text_file_is_not_a_bitmap (tests.test_signatures.SignatureTests.test_bm_in_text_file_is_not_a_bitmap) ... ok
+test_empty_file_not_flagged (tests.test_signatures.SignatureTests.test_empty_file_not_flagged) ... ok
+test_pe_renamed_to_txt_is_mismatch (tests.test_signatures.SignatureTests.test_pe_renamed_to_txt_is_mismatch) ... ok
+test_real_bmp_ok (tests.test_signatures.SignatureTests.test_real_bmp_ok) ... ok
+test_real_png_ok (tests.test_signatures.SignatureTests.test_real_png_ok) ... ok
+test_riff_wav_named_avi_is_mismatch (tests.test_signatures.SignatureTests.test_riff_wav_named_avi_is_mismatch) ... ok
+test_riff_wav_ok_and_webp_ok (tests.test_signatures.SignatureTests.test_riff_wav_ok_and_webp_ok) ... ok
+test_unknown_header_with_mandatory_extension_is_flagged (tests.test_signatures.SignatureTests.test_unknown_header_with_mandatory_extension_is_flagged) ... ok
+test_unknown_header_with_plain_extension_is_not_flagged (tests.test_signatures.SignatureTests.test_unknown_header_with_plain_extension_is_not_flagged) ... ok
+test_all_four_zeroed_reported_once (tests.test_timeline.TestCheckSiFn.test_all_four_zeroed_reported_once) ... ok
+test_backdated_created_detected (tests.test_timeline.TestCheckSiFn.test_backdated_created_detected) ... ok
+test_backdated_mft_changed_detected (tests.test_timeline.TestCheckSiFn.test_backdated_mft_changed_detected) ... ok
+test_classic_timestomp_triggers_both_rules (tests.test_timeline.TestCheckSiFn.test_classic_timestomp_triggers_both_rules) ... ok
+test_copied_file_not_flagged (tests.test_timeline.TestCheckSiFn.test_copied_file_not_flagged) ... ok
+test_missing_attributes (tests.test_timeline.TestCheckSiFn.test_missing_attributes) ... ok
+test_normal_file_is_clean (tests.test_timeline.TestCheckSiFn.test_normal_file_is_clean) ... ok
+test_tolerance (tests.test_timeline.TestCheckSiFn.test_tolerance) ... ok
+test_whole_second_fn_is_not_a_precision_finding (tests.test_timeline.TestCheckSiFn.test_whole_second_fn_is_not_a_precision_finding) ... ok
+test_zeroed_subsecond_created_detected (tests.test_timeline.TestCheckSiFn.test_zeroed_subsecond_created_detected) ... ok
+test_below_threshold_is_high (tests.test_timeline.TestConfidence.test_below_threshold_is_high) ... ok
+test_bulk_installer_pattern_is_low_confidence (tests.test_timeline.TestConfidence.test_bulk_installer_pattern_is_low_confidence) ... ok
+test_millisecond_creation_jitter_ignored_by_default (tests.test_timeline.TestConfidence.test_millisecond_creation_jitter_ignored_by_default) ... ok
+test_unique_backdate_among_bulk_files_is_high (tests.test_timeline.TestConfidence.test_unique_backdate_among_bulk_files_is_high) ... ok
+test_report_rows (tests.test_timeline.TestFindSiFnAnomalies.test_report_rows) ... ok
+test_modified_before_created (tests.test_timeline.TestOsStatHeuristic.test_modified_before_created) ... ok
+test_cancel_stops_early (tests.test_virustotal.TestCheckAll.test_cancel_stops_early) ... ok
+test_progress_callback (tests.test_virustotal.TestCheckAll.test_progress_callback) ... ok
+test_rate_limit_between_requests_only (tests.test_virustotal.TestCheckAll.test_rate_limit_between_requests_only) ... ok
+test_bad_key_401 (tests.test_virustotal.TestCheckHash.test_bad_key_401) ... ok
+test_clean (tests.test_virustotal.TestCheckHash.test_clean) ... /usr/lib/python3.13/unittest/mock.py:2247: ResourceWarning: unclosed database in <sqlite3.Connection object at 0x7ff1aed8d7b0>
+  def __init__(self, name, parent):
+ResourceWarning: Enable tracemalloc to get the object allocation traceback
+ok
+test_malformed_json (tests.test_virustotal.TestCheckHash.test_malformed_json) ... ok
+test_malicious (tests.test_virustotal.TestCheckHash.test_malicious) ... ok
+test_network_failure (tests.test_virustotal.TestCheckHash.test_network_failure) ... ok
+test_rate_limited_429 (tests.test_virustotal.TestCheckHash.test_rate_limited_429) ... ok
+test_request_url_and_api_key_header (tests.test_virustotal.TestCheckHash.test_request_url_and_api_key_header) ... ok
+test_suspicious (tests.test_virustotal.TestCheckHash.test_suspicious) ... ok
+test_unknown_hash_404 (tests.test_virustotal.TestCheckHash.test_unknown_hash_404) ... ok
+
+----------------------------------------------------------------------
+Ran 123 tests in 0.220s
+
+OK (skipped=5)

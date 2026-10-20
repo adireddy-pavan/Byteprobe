@@ -1,0 +1,14 @@
+# Required on Windows for file owner info and NTFS ADS detection
+pywin32>=306; sys_platform == "win32"
+
+# Required for PDF report export
+reportlab>=4.0
+
+# All other modules use Python stdlib only:
+#   hashlib, os, pathlib, ctypes, math, csv, datetime, platform, sys, html
+# No extra install needed for:
+#   metadata, hasher, signatures, hidden_data, timeline, entropy, mft, virustotal,
+#   reporter (CSV and HTML modes), and the test suite (python -m unittest)
+
+# Optional, only for evaluation/evaluate_mft.py (independent reference parser):
+#   pip install mft

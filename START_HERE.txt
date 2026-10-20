@@ -1,0 +1,28 @@
+IMPORTANT: 16 OCTOBER 2026 FRIEND HANDOFF
+READ FRIEND_WINDOWS_STEP_BY_STEP.md FIRST. Run RUN_1_WINDOWS_BASIC.cmd on Windows.
+All genuine results are written to verification_results/ and ByteProbe_Verification_Results.zip.
+The older 123-test statements below document a HISTORICAL build; the latest
+139-test Linux/Xvfb results are documented in docs/TECHNICAL_AUDIT_16OCT_139_TESTS.md.
+Do not execute the raw-volume W5/W6 lab on a personal system drive.
+
+ByteProbe - Windows File Analysis Tool for Digital Forensics
+Correction package: 15 October 2026 (GUI test-harness regression fix)
+
+1. From this directory, install Python 3.10+ and optional dependencies as needed.
+2. Run the application:         python main.py
+3. Run headless core tests:     python -m unittest discover -s tests -t . -v
+   Verified on Linux without display: 118 passed, 5 GUI tests skipped, 0 failed.
+4. Run with a virtual display:  xvfb-run -a python -m unittest discover -s tests -t . -v
+   Verified on Linux/Xvfb: 123 passed, 0 failed, 0 skipped.
+   Windows has NOT been verified in this correction package.
+5. Verify the source manifest:  sha256sum -c SHA256SUMS.txt
+6. Read README.md, EVIDENCE.md, and docs/RESUBMISSION_STATUS.md.
+   Windows-specific steps: docs/WINDOWS_VALIDATION.md.
+   Independent benchmark: docs/INDEPENDENT_BENCHMARK_PROTOCOL.md.
+   Video checklist: docs/SCREENCAST_CHECKLIST.md.
+7. No live Windows MFT, VirusTotal, genuine NSRL dataset, independent second
+   NTFS image or screencast was newly tested or produced in this environment.
+
+For the exact archive digest, verify the separate SHA-256 shown in the
+accompanying dissertation and deliverable audit report. Unpacking and
+repacking the archive changes its ZIP digest without changing file contents.

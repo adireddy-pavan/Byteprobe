@@ -1,0 +1,49 @@
+{
+  "platform": "Windows-11-10.0.26300-SP0",
+  "python": "3.13.7 (tags/v3.13.7:bcee1c3, Aug 14 2025, 14:15:11) [MSC v.1944 64 bit (AMD64)]",
+  "volume": "D:",
+  "filesystem": "NTFS",
+  "started_utc": "2026-10-16T08:11:03.444730+00:00",
+  "W5": {
+    "status": "PASS",
+    "live_volume_source": "\\\\.\\D:",
+    "parsed_base_records": 67424,
+    "specimen_before": {
+      "record_number": 62585,
+      "sequence": 8,
+      "resolved_path": "\\New folder (3)\\Neehanth\\ByteProbe\\byteprobe_mft_lab_4mdti18v\\probe_979da4302c834a29b5b466e9047035b8.txt",
+      "fixup_ok": true,
+      "in_use": true,
+      "si_created_utc": "2026-10-16T08:11:03.438828+00:00",
+      "fn_created_utc": "2026-10-16T08:11:03.438828+00:00",
+      "si_raw_created_ticks": 134366118634388280,
+      "fn_raw_created_ticks": 134366118634388280
+    }
+  },
+  "W6": {
+    "status": "PASS",
+    "requested_si_created_utc": "2019-01-01T09:00:00+00:00",
+    "observed_file_created_utc": "2019-01-01T09:00:00+00:00",
+    "specimen_after": {
+      "record_number": 62585,
+      "sequence": 8,
+      "resolved_path": "\\New folder (3)\\Neehanth\\ByteProbe\\byteprobe_mft_lab_4mdti18v\\probe_979da4302c834a29b5b466e9047035b8.txt",
+      "fixup_ok": true,
+      "in_use": true,
+      "si_created_utc": "2019-01-01T09:00:00+00:00",
+      "fn_created_utc": "2026-10-16T08:11:03.438828+00:00",
+      "si_raw_created_ticks": 131908068000000000,
+      "fn_raw_created_ticks": 134366118634388280
+    },
+    "findings": [
+      "$SI Created earlier than $FN Created by 2844 days, 23:11:03",
+      "$SI Created has zero sub-second precision; $FN Created does not"
+    ],
+    "same_record_number_and_sequence": true,
+    "changed_si_created": true,
+    "unchanged_fn_created": true
+  },
+  "method": "one disposable file; SetFileTime Created only; live $MFT opened rb",
+  "source_code_sha256": "768fa9104885367b2095421877d86416c692e35700bc3f61bc747f943d351d08",
+  "ended_utc": "2026-10-16T08:11:13.951254+00:00"
+}

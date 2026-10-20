@@ -1,0 +1,5 @@
+Skipped unreadable file /tmp/tmpk4446nj2/missing: [Errno 2] No such file or directory: '/tmp/tmpk4446nj2/missing'
+----------------------------------------------------------------------
+Ran 128 tests in 0.420s
+
+OK (skipped=5)

@@ -1,0 +1,30 @@
+{
+  "audit_generated_utc": "2026-10-16T03:56:31.467280+00:00",
+  "source_directory": "/mnt/data/Neehanth_Verification_Work/nonexistent_external_evidence",
+  "items": {
+    "windows": {
+      "status": "NOT_PROVIDED"
+    },
+    "independent_parser": {
+      "status": "NOT_PROVIDED"
+    },
+    "github": {
+      "status": "NOT_PROVIDED"
+    },
+    "screencast": {
+      "status": "NOT_PROVIDED",
+      "note": "Must be the final genuine tool recording on a stated platform."
+    },
+    "declaration": {
+      "status": "NOT_PROVIDED",
+      "note": "Student signature and template compliance require human review."
+    },
+    "supervision": {
+      "status": "NOT_PROVIDED",
+      "note": "Authenticity of historical records cannot be established from filenames."
+    }
+  },
+  "IMPORTANT": "File inventory only; human provenance and content review required.",
+  "fully_verified": false,
+  "reason": "Human and external provenance checks are mandatory even when all files are present."
+}

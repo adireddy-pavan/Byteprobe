@@ -1,0 +1,10 @@
+test_background_scan_completes_and_populates (tests.test_gui_smoke.GuiSmokeTest.test_background_scan_completes_and_populates) ... ok
+test_every_tab_selectable (tests.test_gui_smoke.GuiSmokeTest.test_every_tab_selectable) ... ok
+test_nine_tabs_present_and_named (tests.test_gui_smoke.GuiSmokeTest.test_nine_tabs_present_and_named) ... ok
+test_reset_clears_results (tests.test_gui_smoke.GuiSmokeTest.test_reset_clears_results) ... ok
+test_window_constructs (tests.test_gui_smoke.GuiSmokeTest.test_window_constructs) ... ok
+
+----------------------------------------------------------------------
+Ran 5 tests in 0.897s
+
+OK
